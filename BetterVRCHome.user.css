@@ -1,0 +1,21 @@
+/* Bring back old font */
+@import url(https://assets.vrchat.com/fonts/dosis-font.css);
+
+* {
+  font-family: Dosis;
+}
+
+/* Remove useless parts of the site */
+.e18c1r7j3.css-1fttcpj.mt-5:nth-of-type(2) {
+    display: none;
+}
+
+a[href="https://hello.vrchat.com/vrchatplus"] {
+    display: none;
+}
+
+/* Fix wide locations */
+.locations {
+    padding-left: 20%;
+    padding-right: 20%;
+}
