@@ -7,7 +7,7 @@
 @updateURL      https://raw.githubusercontent.com/burritosoftware/BetterVRCHome/master/BetterVRCHome.user.css
 ==/UserStyle== */
 
-@-moz-document regexp(".vrchat\\.com\\/home.") {
+@-moz-document url-prefix("https://vrchat.com/home") {
     @import url(https://assets.vrchat.com/fonts/dosis-font.css);
 
     * {
