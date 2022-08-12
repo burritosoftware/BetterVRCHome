@@ -1,21 +1,31 @@
-/* Bring back old font */
-@import url(https://assets.vrchat.com/fonts/dosis-font.css);
+/* ==UserStyle==
+@name           BetterVRCHome
+@namespace      vrchat.com
+@version        1.0.0
+@description    A userstyle to make the VRChat website more comfortable to use.
+@author         Burrito
+@updateURL      https://raw.githubusercontent.com/burritosoftware/BetterVRCHome/master/BetterVRCHome.user.css
+==/UserStyle== */
 
-* {
-  font-family: Dosis;
-}
+@-moz-document regexp(".vrchat\\.com\\/home.") {
+    @import url(https://assets.vrchat.com/fonts/dosis-font.css);
 
-/* Remove useless parts of the site */
-.e18c1r7j3.css-1fttcpj.mt-5:nth-of-type(2) {
-    display: none;
-}
+    * {
+      font-family: Dosis;
+    }
 
-a[href="https://hello.vrchat.com/vrchatplus"] {
-    display: none;
-}
+    /* Remove useless parts of the site */
+    .e18c1r7j3.css-1fttcpj.mt-5:nth-of-type(2) {
+        display: none;
+    }
 
-/* Fix wide locations */
-.locations {
-    padding-left: 20%;
-    padding-right: 20%;
+    a[href="https://hello.vrchat.com/vrchatplus"] {
+        display: none;
+    }
+
+    /* Fix wide locations */
+    .locations {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 }
